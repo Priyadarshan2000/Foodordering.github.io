@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	 <link rel="shortcut icon" href="https://indianamusictherapists.com/wp-content/uploads/2017/06/favicon-img.png"
+		type="image/x-icon" />
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/style.css" />
+	<title>Food Delivery app</title>
+	<script src="https://kit.fontawesome.com/e4de6e1dd7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="alan-btn"></div>
+	<div class="hero">
+		<div class="hero-center">
+			<!-- <b>F</b> -->
+			<h2>Find the best restaurants around you</h2>
+			<form action="GET">
+				<select name="cities" id="cities" placeholder="Please typa a location">
+					<option value="option1">Delhi</option>
+					<option value="option2">Mumbai</option>
+					<option value="option3">Bangalore</option>
+					<option value="option4">Kolkata</option>
+					<option value="option5">Hydrabad</option>
+					<option value="option6">Chennai</option>
+					<option value="option7" selected>Your City</option>
+				</select>
+				<div class="search">
+					<i class="fas fa-search"></i>
+					<input type="text" placeholder="Search for Restuarants" size="25" />
+				</div>
+				</form>
+		</div>
+	</div>
+	<main>
+		<div class="card-container">
+			<div class="card-title">
+				<h2>Quick searches</h2>
+				<h3>Discover restaurants by type of meal</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-1-of-3">
+				<div class="card">
+					<div class="first-card">
+						<img src="images/breakfast.png" alt="breakfast" />
+					</div>
+					<div class="second-card">
+						<h4>Breakfast</h4>
+						<a href="food.html"><p>Order More</p></a>
+						<p>Best breakfast options</p>
+	
+					</div>
+				</div>
+			</div>
+			<div class="col-1-of-3">
+				<div class="card">
+					<div class="first-card">
+						<img src="images/lunch.png" alt="lunch" />
+					</div>
+					<div class="second-card">
+						<h4>Lunch</h4>
+						<a href="food.html"><p>Order More</p></a>
+						<p>Best breakfast options</p>
+	
+							
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-1-of-3">
+				<div class="card">
+					<div class="first-card">
+						<img src="images/dinner.png" alt="dinner" />
+					</div>
+					<div class="second-card">
+						<h4>Dinner</h4>
+						<a href="food.html"><p>Order More</p></a>
+						<p>exclusive Dinner options</p>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-1-of-3">
+				<div class="card">
+					<div class="first-card">
+						<img src="images/snacks.png" alt="snacks" />
+					</div>
+					<div class="second-card">
+						<h4>Snacks</h4>
+						<a href="food.html"><p>Order More</p></a>
+						<p>exclusive Snacks options</p>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-1-of-3">
+				<div class="card">
+					<div class="first-card">
+						<img src="images/drinks.png" alt="drinks" />
+					</div>
+					<div class="second-card">
+						<h4>Drinks</h4>
+						<a href="food.html"><p>Order More</p></a>
+						<p>exclusive Drinks options</p>
+					
+					</div>
+				</div>
+			</div>
+			<div class="col-1-of-3">
+				<div class="card">
+					<div class="first-card">
+						<img src="images/nightlife.png" alt="nightlife" />
+					</div>
+					<div class="second-card">
+						<h4>Nightlife</h4>
+						<a href="food.html"><p>Order More</p></a>
+						<p>exclusive Nightlife options</p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script type="text/javascript"
+ src="https://studio.alan.app/web/lib/alan_lib.js"></script>
+ <script type="text/javascript"
+ src="https://studio.alan.app/web/lib/alan_lib.js"></script>
+<script>
+  var alanBtnInstance = alanBtn({
+    key: "73b88e0b44b5c9e4eb083feb42d13c372e956eca572e1d8b807a3e2338fdd0dc/stage",
+    onCommand: function (commandData) {
+      if (commandData.command === "go:back") {
+        //call client code that will react on the received command
+      }
+    },
+    rootEl: document.getElementById("alan-btn"),
+  });
+</script>
+
+</body>
+
+</html>
